@@ -11,4 +11,3 @@ scenarios:
   - flow:
     - get:
         url: '/{{ $randomNumber(1, 10000001) }}'
-      

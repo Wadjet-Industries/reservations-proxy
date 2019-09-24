@@ -15,7 +15,7 @@ app.use('/restaurants/:id', express.static('public'));
 
 
 app.get('/api/restaurants/:id' , (req, res) => {
-  res.redirect(`ec2-3-15-165-218.us-east-2.compute.amazonaws.com:3002/api/restaurants/${req.params.id}`);
+  res.redirect(`http://ec2-3-15-165-218.us-east-2.compute.amazonaws.com:3002/api/restaurants/${req.params.id}`);
 })
 
 

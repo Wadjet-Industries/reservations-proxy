@@ -11,6 +11,7 @@ app.use(morgan('dev'));
 
 app.use('/restaurants/:id', express.static('public'));
 
+app.use('/' , express.static('loader'));
 
 
 
